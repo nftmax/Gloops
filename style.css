@@ -1,0 +1,202 @@
+body{
+ margin: 0;
+ background-color: #F1DABF;
+ overflow-x: hidden;
+}
+ #Gl{
+   font-size: 100px;
+   font-family: 'Poppins', sans-serif;
+   position: absolute;
+   top: 40%; left: 50%;
+   transform: translate(-50%, -50%);
+   cursor: default;
+ }
+  #nb1{
+    transform: rotate(43deg);
+    margin-top: 500px;
+    animation-name: Gloopsa;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+@keyframes Gloopsa {
+  0%{
+    margin-left: -50%;
+  }
+  40%{
+    margin-left: -150px;
+  }
+  70%{
+    margin-left: -150px;
+  }
+  100%{
+    margin-left: -50%;
+  }
+}
+#nb2{
+  transform: rotate(-15deg);
+  float: right;
+  margin-top: 58px;
+  animation-name: Gloopsb;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+@keyframes Gloopsb {
+0%{
+  margin-right: -50%;
+}
+40%{
+  margin-right: -150px;
+}
+70%{
+  margin-right: -150px;
+}
+100%{
+  margin-right: -50%;
+}
+}
+#glo{
+  font-size: 50px;
+  font-family: 'Roboto Slab', serif;
+  margin-left: 100px;
+}
+#expl{
+  width: 50%;
+  margin-left: 100px;
+  font-family: 'Varela Round', sans-serif;
+}
+#n1{
+  width: 30%;
+  float: right;
+  margin-top: -380px;
+  margin-right: 10%;
+}
+#rd{
+  position: relative;
+  font-size: 50px;
+  margin-top: 240px;
+  margin-left: 100px;
+  font-family: 'Roboto Slab', serif;
+}
+#roadmap{
+  position: relative;
+  margin-left: 10%;
+  margin-top: 20px;
+  width: 80%;
+}
+#ach{
+  font-size: 50px;
+  font-family: 'Roboto Slab', serif;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+#exach{
+  font-family: 'Varela Round', sans-serif;
+  margin-left: 100px;
+  width: 80%;
+}
+#eq{
+  font-size: 50px;
+  font-family: 'Roboto Slab', serif;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+#ppgl{
+  margin-left: 120px;
+}
+@media screen and (max-width: 1000px){
+  #nb1{
+    display: none;
+  }
+  #nb2{
+    display: none;
+  }
+  #n1{
+    display: none;
+  }
+  #glo{
+    position: relative;
+    margin-top: 130%;
+    text-align: center;
+    margin-left: auto;
+  }
+  #expl{
+    position: relative;
+    margin-top: 5%;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+  }
+  #rd{
+    position: relative;
+    margin-top: 10%;
+    text-align: center;
+    margin-left: auto;
+  }
+  #roadmap{
+    position: relative;
+    margin-top: 0%;
+    width: 90%;
+    right: 5%;
+  }
+  #eq{
+    position: relative;
+    margin-top: 10%;
+    margin-left: auto;
+    text-align: center;
+  }
+  #ppgl{
+    position: relative;
+    margin-top: 0%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  #ach{
+    position: relative;
+    margin-top: 10%;
+    margin-left: auto;
+    text-align: center;
+  }
+  #exach{
+    position: relative;
+    margin-top: 5%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width:1000px) {
+@media (max-height: 800px){
+  #nb1{
+    margin-top: 300px;
+  }
+  #glo{
+    margin-top: 120px;
+  }
+  @media (max-height: 700px){
+    #nb1{
+      margin-top: 270px;
+    }
+    #nb2{
+      margin-top: -90px;
+      animation-duration: 6s;
+    }
+    #cl{
+      margin-top: 100px;
+    }
+    @keyframes Gloopsb {
+    0%{
+      margin-right: -80%;
+    }
+    40%{
+      margin-right: -200px;
+    }
+    70%{
+      margin-right: -200px;
+    }
+    100%{
+      margin-right: -80%;
+    }
+    }
+}
+}
